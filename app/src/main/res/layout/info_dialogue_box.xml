@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/silver"
+    android:layout_height="360dp"
+    app:cardCornerRadius="20dp"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:background="@drawable/circle">
+
+            <ImageView
+                android:id="@+id/image_info"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/food_expense"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/category_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Food &amp; Drinks"
+            android:textSize="25sp"
+            android:textColor="@color/silver"
+            android:fontFamily="@font/montserrat_bold"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/expense_window_bg">
+
+            <TextView
+                android:id="@+id/name_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Burger"
+                android:textSize="20sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/date_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="7/13/2024"
+                android:textSize="20sp"
+                android:textColor="@color/silver"
+                android:fontFamily="@font/montserrat"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/amount_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Rs 1500.0"
+            android:textSize="25sp"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@color/primaryColor"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

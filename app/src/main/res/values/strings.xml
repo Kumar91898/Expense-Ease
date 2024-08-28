@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Expense Ease</string>
+    <string name="default_web_client_id" translatable="false">697035224131-vr5g74t0dqf59dno0jo0opd32prf45o7.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="info_string">"Hi, I'm Kailash Kumar, an Android developer with experience from internships at CodexCue, Code Alpha, and Prodigy Info Tech. I've developed various apps from a FlashLight App to a Fitness Tracker App."</string>
+    <string name="about_app">"This app helps you manage your finances by tracking and categorizing expenses. I hope it makes managing your money easier!"</string>
+    <string name="king">"@Kailash Kumar"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

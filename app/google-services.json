@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "697035224131",
+    "project_id": "expense-ease-d8129",
+    "storage_bucket": "expense-ease-d8129.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697035224131:android:4b380bed6f33b2658e50f6",
+        "android_client_info": {
+          "package_name": "com.kumar.expenseease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697035224131-a8hmo39oi640a57r7ff03r05s8dun4uu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kumar.expenseease",
+            "certificate_hash": "4b3918af38fc095b1d8cd5c3a19be409f92c188e"
+          }
+        },
+        {
+          "client_id": "697035224131-vr5g74t0dqf59dno0jo0opd32prf45o7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChoB6EJeEGP_Qg_PGZJ7mAv1onT4F4scE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697035224131-vr5g74t0dqf59dno0jo0opd32prf45o7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

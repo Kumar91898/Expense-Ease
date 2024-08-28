@@ -1,0 +1,10 @@
+<!-- res/drawable/ring_shape.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:innerRadius="20dp"
+    android:thickness="40dp"
+    android:useLevel="false">
+
+    <solid android:color="#1C59CD"/>
+
+</shape>
